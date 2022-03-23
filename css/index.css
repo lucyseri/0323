@@ -1,0 +1,97 @@
+@import url(common/reset.css);
+
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-con{
+  flex: 0 1 600px;
+  height: 400px;
+  position: relative;
+  background-color: #d5ebff;
+  overflow: hidden;
+}
+
+.sec-con .gallery{
+  width: 500%;
+  height: inherit;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.sec-con .gallery ul{
+ display: flex;
+ justify-content: space-between;
+}
+
+.sec-con .gallery ul li{
+ flex:1;
+ text-align: center;
+ line-height: 400px;
+ font-size: 30px;
+ box-sizing: border-box;
+}
+
+.sec-con .center-btn{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-con .center-btn span{
+  width:30px;
+  height: 30px;
+  border: 1px solid;
+  background-color: #000;
+  box-sizing: border-box;
+}
+.sec-con .center-btn span:hover{
+  background-color: #d5ebff;
+}
+
+.sec-con .bcon{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding:  5px 0;
+  display: flex;
+  justify-content:center;
+}
+
+.sec-con .bcon .items{
+  box-sizing: border-box;
+}
+
+.sec-con .bcon .items ul{
+  display: flex;
+  justify-content:space-between;
+  gap: 5px;
+}
+
+.sec-con .bcon .items ul li{
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.sec-con .bcon .items ul li:hover{
+background-color: #d5ebff;
+}
+
+.on{
+  background-color: #000;
+}
